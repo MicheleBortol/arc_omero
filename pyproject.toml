@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+version = "0.0.1"
+name = "arc-omero"
+authors = [{ name = "Michele Bortolomeazzi" }, {name = "Mohamed Abdrabbou"}]
+description = "Plugin for omero-cli-transfer to prepare ARC repositories for import into OMERO."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3",
+
+]
+dependencies = ["omero-py==5.13.1"]
+
+[project.optional-dependencies]
+dev = ["omero-cli-transfer", "ome-types==0.4.2", "omero-cli-transfer"]
+
+
+[project.entry-points."omero_cli_transfer.prepare.plugin"]
+arc_omero = "arc_omero:prepare_arc"
+
+[project.urls]
+Homepage = "https://github.com/MicheleBortol/arc_omero"
