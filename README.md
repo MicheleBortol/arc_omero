@@ -6,6 +6,7 @@ A plugin for [omero-cli-transfer](https://github.com/ome/omero-cli-transfer) to 
 
 ```
 omero transfer prepare --plugin arc_omero ARC_DATASET_FOLDER
+omero transfer unpack --folder ARC_DATASET_FOLDER # Not dependent on the plugin  
 ```
 
 ## Development Environment Setup
@@ -19,12 +20,18 @@ source arc_omero_dev/bin/activate
 # 2) Clone the forked omero-cli-transfer repo
 git clone https://github.com/MicheleBortol/omero-cli-transfer.git
 
-# 3) Install omero-cli-transfer with the plugins enabled for the prepare function
+# 3) Install bftools (necessary for omero-cli-transfer prepare)
+wget https://downloads.openmicroscopy.org/bio-formats/7.1.0/artifacts/bftools.zip
+unzip bftools.zip
+mv bftools arc_omero_dev/bin
+export PATH=$(pwd)/arc_omero_dev/bin/bftools:$PATH 
+
+# 4) Install omero-cli-transfer with the plugins enabled for the prepare function
 cd omero-cli-transfer
 git checkout omero_arc_importer
-pip install -e .
+pip install .
 
-# 4)Clone this repo 
+# 5)Clone and install this repo 
 cd ..
 git clone https://github.com/MicheleBortol/arc_omero.git
 cd arc_omero
