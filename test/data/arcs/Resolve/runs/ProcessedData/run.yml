@@ -1,0 +1,8 @@
+dataset_folder:
+  class: Directory 
+  path: ../../assays/ResolveMolecularCartography/dataset
+nextflow_config_file:
+  class: File
+  path: run.config
+run_profile: local
+

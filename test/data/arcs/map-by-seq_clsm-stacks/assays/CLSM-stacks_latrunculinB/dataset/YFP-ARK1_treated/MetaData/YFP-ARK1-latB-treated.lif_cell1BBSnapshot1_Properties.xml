@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="LASAF_WFIP.xsl"?>
+<Data>
+  <Image>
+    <ImageDescription>
+      <Name>cell1BBSnapshot1</Name>
+      <Size>2.52 MB</Size>
+      <Channels>
+        <ChannelDescription DataType="0" ChannelTag="3" Resolution="8" NameOfMeasuredQuantity="" Min="0.000000e+000" Max="2.550000e+002" Unit="" LUTName="" IsLUTInverted="0" BytesInc="0" BitInc="0">
+        </ChannelDescription>
+        <ChannelDescription DataType="0" ChannelTag="2" Resolution="8" NameOfMeasuredQuantity="" Min="0.000000e+000" Max="2.550000e+002" Unit="" LUTName="" IsLUTInverted="0" BytesInc="1" BitInc="0">
+        </ChannelDescription>
+        <ChannelDescription DataType="0" ChannelTag="1" Resolution="8" NameOfMeasuredQuantity="" Min="0.000000e+000" Max="2.550000e+002" Unit="" LUTName="" IsLUTInverted="0" BytesInc="2" BitInc="0">
+        </ChannelDescription>
+      </Channels>
+      <Dimensions>
+        <DimensionDescription DimID="X" NumberOfElements="917" Origin="0.00" Length="917.00" Unit="m" BitInc="0" BytesInc="3" LogicalUnit="pixels" Voxel="1.000">
+        </DimensionDescription>
+        <DimensionDescription DimID="Y" NumberOfElements="917" Origin="0.00" Length="917.00" Unit="m" BitInc="0" BytesInc="2752" LogicalUnit="pixels" Voxel="1.000">
+        </DimensionDescription>
+      </Dimensions>
+      <FileLocation>D:\USER\Andrea\2014-09-05\YFP-ARK1-latB-treated.lif</FileLocation>
+      <FrameCount>3 (3 channels, 1 frames)</FrameCount>
+      <FluoDescription />
+    </ImageDescription>
+    <Attachment Name="ViewerScaling" Application="LAS AF" Version="1.0">
+      <ChannelScalingInfo BackgroundLutName="Gray" WhiteValue="1" BlackValue="0" GammaValue="1" Automatic="0" />
+      <ChannelScalingInfo BackgroundLutName="Gray" WhiteValue="1" BlackValue="0" GammaValue="1" Automatic="0" />
+      <ChannelScalingInfo BackgroundLutName="Gray" WhiteValue="1" BlackValue="0" GammaValue="1" Automatic="0" />
+    </Attachment>
+  </Image>
+</Data>

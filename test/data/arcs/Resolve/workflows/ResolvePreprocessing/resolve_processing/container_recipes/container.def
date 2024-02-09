@@ -1,0 +1,57 @@
+bootstrap: docker
+From: vanvalenlab/deepcell-applications:0.4.0
+%post
+
+######################################################################
+## Prepare the containe with git + python + pip
+######################################################################
+
+# make directory to mount the data
+mkdir /data
+
+# install wget, unzip, python3.8 and pip 
+apt update
+apt install -y wget
+apt install -y unzip
+
+wget https://bootstrap.pypa.io/get-pip.py
+python3.8 get-pip.py
+rm get-pip.py
+
+######################################################################
+## Install ROIfile and imagecodecs
+######################################################################
+pip3.8 install roifile==2022.3.18 
+pip3.8 install imagecodecs==2022.9.26 
+
+################################################################################
+## Install Cellpose
+################################################################################
+
+# Get cellpose models
+wget --save-cookies cookies.txt 'https://docs.google.com/uc?export=download&id=1zHGFYCqRCTwTPwgEUMNZu0EhQy2zaovg' -O- | sed -rn 's/.*confirm=([0-9A-Za-z_]+).*/\1/p' > confirm.txt
+wget --load-cookies cookies.txt -O models.zip 'https://docs.google.com/uc?export=download&id=1zHGFYCqRCTwTPwgEUMNZu0EhQy2zaovg&confirm='$(<confirm.txt)
+
+mkdir -p /root/.cellpose/models
+tar -cvzf models.zip /root/.cellpose/models
+rm confirm.txt cookies.txt models.zip
+
+# install Cellpose
+pip3.8 install cellpose==2.0.5
+
+######################################################################
+## Get kras models for Mesmer
+######################################################################
+mkdir /keras_models
+wget https://deepcell-data.s3-us-west-1.amazonaws.com/saved-models/MultiplexSegmentation-9.tar.gz
+tar -xf MultiplexSegmentation-9.tar.gz
+mv MultiplexSegmentation /keras_models/
+rm MultiplexSegmentation-9.tar.gz
+
+################################################################################
+## Install MindaGap
+################################################################################
+wget https://github.com/ViriatoII/MindaGap/archive/refs/heads/main.zip
+unzip main.zip
+mv MindaGap-main/ /MindaGap
+rm main.zip

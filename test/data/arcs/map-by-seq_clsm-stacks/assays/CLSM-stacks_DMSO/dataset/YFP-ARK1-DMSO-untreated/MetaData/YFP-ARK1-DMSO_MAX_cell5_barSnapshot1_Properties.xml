@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="YFP-ARK1-DMSO_MAX_cell5_barSnapshot1_Properties_CIP.xsl"?>
+<Data>
+  <Image TextDescription="cell5_barSnapshot1">
+    <ImageDescription>
+      <Name>MAX_cell5_barSnapshot1</Name>
+      <Size>6,57 MB</Size>
+      <UniqueID>d54e87bc-47b8-11ee-9c8e-ce184a791de2</UniqueID>
+      <Channels>
+        <ChannelDescription DataType="0" ChannelTag="3" Resolution="8" NameOfMeasuredQuantity="" Min="0.000000e+000" Max="2.550000e+002" Unit="" LUTName="" IsLUTInverted="0" BytesInc="0" BitInc="0">
+        </ChannelDescription>
+        <ChannelDescription DataType="0" ChannelTag="2" Resolution="8" NameOfMeasuredQuantity="" Min="0.000000e+000" Max="2.550000e+002" Unit="" LUTName="" IsLUTInverted="0" BytesInc="1" BitInc="0">
+        </ChannelDescription>
+        <ChannelDescription DataType="0" ChannelTag="1" Resolution="8" NameOfMeasuredQuantity="" Min="0.000000e+000" Max="2.550000e+002" Unit="" LUTName="" IsLUTInverted="0" BytesInc="2" BitInc="0">
+        </ChannelDescription>
+      </Channels>
+      <Dimensions>
+        <DimensionDescription DimID="X" NumberOfElements="1480" Origin="0" Length="1,480" Unit="m" BitInc="0" BytesInc="3" UnitOrigin="m" EndPosition="1,480" UnitEndPosition="m" LogicalUnit="pixels" Voxel="1.001">
+        </DimensionDescription>
+        <DimensionDescription DimID="Y" NumberOfElements="1480" Origin="0" Length="1,480" Unit="m" BitInc="0" BytesInc="4440" UnitOrigin="m" EndPosition="1,480" UnitEndPosition="m" LogicalUnit="pixels" Voxel="1.001">
+        </DimensionDescription>
+      </Dimensions>
+      <FileLocation>E:\Köln\results\Confocal\2014-09-01_YFP-ARK1genomic_ory_latB\YFP-ARK1-DMSO.lif</FileLocation>
+      <StartTime>no timestamp data</StartTime>
+      <EndTime>no timestamp data</EndTime>
+      <FrameCount>3 (3 channels, 1 frames)</FrameCount>
+      <NumberOfChannels>3</NumberOfChannels>
+    </ImageDescription>
+    <Attachment Name="ViewerScaling" Application="LAS AF" Version="1.0">
+      <ChannelScalingInfo BackgroundLutName="Gray" WhiteValue="1" BlackValue="0" GammaValue="1" Automatic="0" />
+      <ChannelScalingInfo BackgroundLutName="Gray" WhiteValue="1" BlackValue="0" GammaValue="1" Automatic="0" />
+      <ChannelScalingInfo BackgroundLutName="Gray" WhiteValue="1" BlackValue="0" GammaValue="1" Automatic="0" />
+    </Attachment>
+  </Image>
+</Data>

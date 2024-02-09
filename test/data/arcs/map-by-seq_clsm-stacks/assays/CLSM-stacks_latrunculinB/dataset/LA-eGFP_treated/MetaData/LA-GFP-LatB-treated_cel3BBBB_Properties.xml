@@ -1,0 +1,404 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="LA-GFP-LatB-treated_cel3BBBB_Properties_CIP.xsl"?>
+<Data>
+  <Image>
+    <Attachment Name="PreviewMarker" Application="LAS AF" IsPreviewImage="0" />
+    <ImageDescription>
+      <Name>cel3BBBB</Name>
+      <Size>14,68 MB</Size>
+      <UniqueID>c8b7329a-4345-11ee-9c8c-b1854eab2048_OLD</UniqueID>
+      <Channels>
+        <ChannelDescription DataType="0" ChannelTag="0" Resolution="8" NameOfMeasuredQuantity="" Min="0.000000e+000" Max="2.550000e+002" Unit="" LUTName="Green" IsLUTInverted="0" BytesInc="0" BitInc="0" LUTPNGImage="iVBORw0KGgoAAAANSUhEUgAAAQAAAAABCAYAAAAxWXB3AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAALEoAACxKAXd6dE0AAAGKSURBVDhPHcMDjBgGAADA2rZt2/Zq27Zt291W27Zt27Zt53vpJReIgL8DG8SgBjO4IQxpKEMbxrCGM7wRjGgkIxvFqEYzujGMaSxjG8e4xjO+CUxoIhObxKQmM7kpTGkqU5vGtKYzvRnMaCYzm8WsZjO7OcxpLnObx7zmM78FLGghC1vEohazuCUsaSn/sbRlLGs5y1vBilayslWsajWrW8Oa1rK2daxrPevbwIY2srFNbGozm9vClraytW1sazvb28GOdrKzXexqN7vbw572srd97Gs/+zvAgQ5ysEMc6jCHO8KRjnK0YxzrOMc7wYlOcrJT/Nf//N+pTnO6M5zpLGc7x7nOc74LXOgiF7vEpS5zuStc6SpXu8a1rnO9G9zoJje7xa1uc7s73Okud7vHve5zvwc86CEPe8SjHvO4JzzpKU97xrOe87wXvOglL3vFq17zuje86S1ve8e73vO+D3zoIx/7xKc+87kvfOkrX/vGt77zvR/86Cc/+8WvfvO7P/zpL38bECjgD1oufZKKrvTJAAAAAElFTkSuQmCC">
+        </ChannelDescription>
+      </Channels>
+      <Dimensions>
+        <DimensionDescription DimID="X" NumberOfElements="1024" Origin="17.2" Length="162.07" Unit="µm" BitInc="0" BytesInc="1" UnitOrigin="µm" EndPosition="179.26" UnitEndPosition="µm" LogicalUnit="pixels" Voxel="0.158">
+        </DimensionDescription>
+        <DimensionDescription DimID="Y" NumberOfElements="1024" Origin="115.58" Length="162.07" Unit="µm" BitInc="0" BytesInc="1024" UnitOrigin="µm" EndPosition="277.65" UnitEndPosition="µm" LogicalUnit="pixels" Voxel="0.158">
+        </DimensionDescription>
+        <DimensionDescription DimID="Z" NumberOfElements="14" Origin="-113.16" Length="26.18" Unit="µm" BitInc="0" BytesInc="1048576" UnitOrigin="µm" EndPosition="-86.98" UnitEndPosition="µm" LogicalUnit="planes" Voxel="2.014">
+        </DimensionDescription>
+      </Dimensions>
+      <FileLocation>E:\Köln\results\Confocal\2014-09-05_YFP-ARK1-LA_LatB\LA-GFP-LatB-treated.lif</FileLocation>
+      <StartTime>05.09.2014 16:59:10.638</StartTime>
+      <EndTime>05.09.2014 17:00:21.277</EndTime>
+      <FrameCount>14 (1 channels, 14 frames)</FrameCount>
+      <NumberOfChannels>1</NumberOfChannels>
+    </ImageDescription>
+    <Attachment Name="HardwareSettingList" Application="LAS AF">
+      <HardwareSetting Name="default">
+        <ScannerSetting>
+          <ScannerSettingRecord Identifier="SystemType" Unit="" Description="System Type" Data="0" Variant="TCS SPE" VariantType="8" />
+          <ScannerSettingRecord Identifier="bAFUseFixSliceNumber" Unit="" Description="" Data="0" Variant="0" VariantType="3" />
+          <ScannerSettingRecord Identifier="bAdaptiveFocusControlActive" Unit="" Description="" Data="0" Variant="0" VariantType="3" />
+          <ScannerSettingRecord Identifier="bEnableRoiScan" Unit="" Data="0" Variant="0" VariantType="17" Description="RoiScan" />
+          <ScannerSettingRecord Identifier="bIs3DLimitedRoiScanEnable" Unit="" Description="Is 3D limited ROI scan enable" Data="0" Variant="0" VariantType="17" />
+          <ScannerSettingRecord Identifier="bIsSequential" Unit="" Data="0" Variant="1" VariantType="11" Description="IsSequential" />
+          <ScannerSettingRecord Identifier="bIsSeriesScanAutofocusActive" Unit="" Description="" Data="0" Variant="0" VariantType="3" />
+          <ScannerSettingRecord Identifier="bStepSizeConstant" Unit="" Description="StepSize Constant" Data="0" Variant="1" VariantType="17" />
+          <ScannerSettingRecord Identifier="bStepSizerActivated" Unit="" Description="" Data="0" Variant="0" VariantType="17" />
+          <ScannerSettingRecord Identifier="bUseVisibleShutter" Unit="" Data="0" Variant="1" VariantType="17" Description="VisibleShutter" />
+          <ScannerSettingRecord Identifier="bValidBegin" Unit="" Description="" Data="0" Variant="1" VariantType="17" />
+          <ScannerSettingRecord Identifier="bValidEnd" Unit="" Description="" Data="0" Variant="1" VariantType="17" />
+          <ScannerSettingRecord Identifier="csLutName00" Unit="" Description="B:0.000000e+000 W:1.000000e+000 G:1.000000e+000" Data="1" Variant="Green" VariantType="8" />
+          <ScannerSettingRecord Identifier="csLutName01" Unit="" Description="B:0.000000e+000 W:1.000000e+000 G:1.000000e+000" Data="100" Variant="Gray" VariantType="8" />
+          <ScannerSettingRecord Identifier="csLutName02" Unit="" Description="B:0.000000e+000 W:1.000000e+000 G:1.000000e+000" Data="2000" Variant="Green" VariantType="8" />
+          <ScannerSettingRecord Identifier="csLutName03" Unit="" Description="B:0.000000e+000 W:1.000000e+000 G:1.000000e+000" Data="2001" Variant="Red" VariantType="8" />
+          <ScannerSettingRecord Identifier="csLutName04" Unit="" Description="B:0.000000e+000 W:1.000000e+000 G:1.000000e+000" Data="2002" Variant="Blue" VariantType="8" />
+          <ScannerSettingRecord Identifier="csLutName05" Unit="" Description="B:0.000000e+000 W:1.000000e+000 G:1.000000e+000" Data="2003" Variant="Gray" VariantType="8" />
+          <ScannerSettingRecord Identifier="csLutName06" Unit="" Description="B:0.000000e+000 W:1.000000e+000 G:1.000000e+000" Data="2004" Variant="Cyan" VariantType="8" />
+          <ScannerSettingRecord Identifier="csLutName07" Unit="" Description="B:0.000000e+000 W:1.000000e+000 G:1.000000e+000" Data="2005" Variant="Magenta" VariantType="8" />
+          <ScannerSettingRecord Identifier="csLutName08" Unit="" Description="B:0.000000e+000 W:1.000000e+000 G:1.000000e+000" Data="2006" Variant="Yellow" VariantType="8" />
+          <ScannerSettingRecord Identifier="csLutName09" Unit="" Description="B:0.000000e+000 W:1.000000e+000 G:1.000000e+000" Data="2007" Variant="Glow" VariantType="8" />
+          <ScannerSettingRecord Identifier="csLutName10" Unit="" Description="B:0.000000e+000 W:1.000000e+000 G:1.000000e+000" Data="3000" Variant="Gray" VariantType="8" />
+          <ScannerSettingRecord Identifier="csScanMode" Unit="" Data="0" Variant="xyz" VariantType="8" Description="ScanMode" />
+          <ScannerSettingRecord Identifier="dAdaptiveFocusControlAutonomousOffset" Unit="" Description="" Data="0" Variant="-2" VariantType="5" />
+          <ScannerSettingRecord Identifier="dblAFCOffset" Unit="" Description="" Data="0" Variant="-2" VariantType="5" />
+          <ScannerSettingRecord Identifier="dblAFFocusRange" Unit="" Description="" Data="0" Variant="0.000045" VariantType="5" />
+          <ScannerSettingRecord Identifier="dblPinhole" Unit="µm" Data="0" Variant="230" VariantType="5" Description="Pinhole [m]" />
+          <ScannerSettingRecord Identifier="dblPinholeAiry" Unit="AU" Data="0" Variant="2.44" VariantType="5" Description="Pinhole [airy]" />
+          <ScannerSettingRecord Identifier="dblSizeX" Unit="µm" Data="0" Variant="162.07" VariantType="5" Description="Size-Width" />
+          <ScannerSettingRecord Identifier="dblSizeY" Unit="µm" Data="0" Variant="162.07" VariantType="5" Description="Size-Height" />
+          <ScannerSettingRecord Identifier="dblSizeZ" Unit="µm" Data="0" Variant="26.18" VariantType="5" Description="Size-Depth" />
+          <ScannerSettingRecord Identifier="dblStepSize" Unit="µm" Data="0" Variant="2.01" VariantType="5" Description="StepSize" />
+          <ScannerSettingRecord Identifier="dblVoxelX" Unit="nm" Data="0" Variant="158.4" VariantType="5" Description="Voxel-Width" />
+          <ScannerSettingRecord Identifier="dblVoxelY" Unit="nm" Data="0" Variant="158.4" VariantType="5" Description="Voxel-Height" />
+          <ScannerSettingRecord Identifier="dblVoxelZ" Unit="µm" Data="0" Variant="2" VariantType="5" Description="Voxel-Depth" />
+          <ScannerSettingRecord Identifier="dblVoxelVolume" Unit="µm³" Data="0" Variant="50181.12" VariantType="5" Description="Voxel-Volume" />
+          <ScannerSettingRecord Identifier="dblZWidePos" Unit="m" Description="z-Wide Pos" Data="0" Variant="0.0227186268" VariantType="5" />
+          <ScannerSettingRecord Identifier="dblZoom" Unit="" Data="0" Variant="3.4" VariantType="5" Description="Zoom" />
+          <ScannerSettingRecord Identifier="dwChannelMask" Unit="" Description="" Data="0" Variant="1" VariantType="3" />
+          <ScannerSettingRecord Identifier="dwLogiChMask" Unit="" Description="" Data="0" Variant="1" VariantType="3" />
+          <ScannerSettingRecord Identifier="eAFAnalyseType" Unit="" Description="" Data="0" Variant="1" VariantType="3" />
+          <ScannerSettingRecord Identifier="eAFSubsystem" Unit="" Description="" Data="0" Variant="0" VariantType="3" />
+          <ScannerSettingRecord Identifier="eAFWorkflowTimelapse" Unit="" Description="" Data="0" Variant="1" VariantType="3" />
+          <ScannerSettingRecord Identifier="eAFWorkflowXY" Unit="" Description="" Data="0" Variant="1" VariantType="3" />
+          <ScannerSettingRecord Identifier="eAFZUseMode" Unit="" Description="" Data="0" Variant="1" VariantType="3" />
+          <ScannerSettingRecord Identifier="eDataSource" Unit="" Description="" Data="0" Variant="0" VariantType="3" />
+          <ScannerSettingRecord Identifier="eDirectional" Unit="" Data="0" Variant="1" VariantType="3" Description="Scan-Direction" />
+          <ScannerSettingRecord Identifier="eDirectionalY" Unit="" Data="0" Variant="1" VariantType="3" Description="Y-Scan-Direction" />
+          <ScannerSettingRecord Identifier="eSequentialMode" Unit="" Data="0" Variant="2" VariantType="3" Description="SequentialMode" />
+          <ScannerSettingRecord Identifier="eZUseMode" Unit="" Description="" Data="0" Variant="1" VariantType="3" />
+          <ScannerSettingRecord Identifier="m_bConstantIntegrationTimeActive" Unit="" Description="Maximum IntegrationTime Active" Data="0" Variant="1" VariantType="17" />
+          <ScannerSettingRecord Identifier="nAFFixSliceNumber" Unit="" Description="" Data="0" Variant="0" VariantType="3" />
+          <ScannerSettingRecord Identifier="nAFPrecision" Unit="" Description="" Data="0" Variant="2" VariantType="3" />
+          <ScannerSettingRecord Identifier="nAFWorkflowTimelapseIterator" Unit="" Description="" Data="0" Variant="1" VariantType="3" />
+          <ScannerSettingRecord Identifier="nAFWorkflowXYIterator" Unit="" Description="" Data="0" Variant="1" VariantType="3" />
+          <ScannerSettingRecord Identifier="nAccumulation" Unit="" Data="0" Variant="1" VariantType="3" Description="Frame-Accumulation" />
+          <ScannerSettingRecord Identifier="nAverageFrame" Unit="" Data="0" Variant="3" VariantType="3" Description="Frame-Average" />
+          <ScannerSettingRecord Identifier="nAverageLine" Unit="" Data="0" Variant="1" VariantType="3" Description="Line-Average" />
+          <ScannerSettingRecord Identifier="nBegin" Unit="" Description="" Data="0" Variant="761600" VariantType="3" />
+          <ScannerSettingRecord Identifier="nBit" Data="0" Variant="8" VariantType="3" Description="Resolution" Unit="bits" />
+          <ScannerSettingRecord Identifier="nChannels" Unit="" Data="0" Variant="1" VariantType="3" Description="Channels" />
+          <ScannerSettingRecord Identifier="nEnd" Unit="" Description="" Data="0" Variant="706688" VariantType="3" />
+          <ScannerSettingRecord Identifier="nFormatInDimension" Data="0" Variant="1024" VariantType="3" Description="Format-Width" Unit="pixels" />
+          <ScannerSettingRecord Identifier="nFormatOutDimension" Data="0" Variant="1024" VariantType="3" Description="Format-Height" Unit="pixels" />
+          <ScannerSettingRecord Identifier="nLineAccumulation" Unit="" Description="Line-Accumulation" Data="0" Variant="1" VariantType="3" />
+          <ScannerSettingRecord Identifier="nLines" Unit="" Description="" Data="0" Variant="3.39362525939964" VariantType="5" />
+          <ScannerSettingRecord Identifier="nPages" Unit="" Description="" Data="0" Variant="3.39362525939941" VariantType="5" />
+          <ScannerSettingRecord Identifier="nDelayTime" Unit="" Data="0" Variant="" VariantType="8" Description="Delay Time" />
+          <ScannerSettingRecord Identifier="nSections" Unit="" Data="0" Variant="14" VariantType="3" Description="Sections" />
+        </ScannerSetting>
+        <LDM_Block_Sequential SequentialMode="2" AutoFocusSequence="1" BlockName="Job(Seq.Scan) 1">
+          <LDM_Block_Sequential_Master>
+            <ATLConfocalSettingDefinition VersionNumber="3" UserSettingName="S3" IsSTEDActive="0" STEDDelayTime="42" STEDDelayTime2="42" IsUserSettingNameSet="0" BitSize="8" ScanMode="xyz" ZUseMode="1" ZPosition="-1.13159391126778E-04" IsSuperZ="0" Begin="-1.13159391126778E-04" End="-8.6975315338298E-05" Sections="14" CycleCount="1" CycleTime="0" CompleteTime="75.936" LineTime="0.005" FrameTime="5.42" UseMaxIterationsForT="0" IsTimeMinimizeEnabled="0" LastTCalcMode="3" Lines="512" Pages="1" MaxLines="1" ValidBeginStack="1" ValidEndStack="1" IsActivatedStepSizer="0" StepSizeConstant="1" IsFastZStack="0" ZStackDirectionMode="1" StagePosX="0" StagePosY="0" StagePosZ="0" StageRangeX="0" StageRangeY="0" Magnification="20" ObjectivePos="6" CanDoOpticalZoom="0" OpticalZoom="1" AdaptiveFocusControlActive="0" AdaptiveFocusControlAutonomousOffset="-2" AdaptiveFocusControlAutonomousModeActive="0" CanDoCSMode="1" ActiveCS_SubModeForTLD="100" ActiveCS_SubModeForRLD="-1" AutofocusChannel="1" IsAutofocusOnStart="0" AutoFocusMode="2" AutofocusRedoEveryNTimePoints="0" IsFCSFilterAutomationActive="0" IsSMDChaserUVAOTFAutomationActive="0" ObjectiveName="Dummy7" ObjectiveNumber="11507904" IsVisShutterActive="1" LastNonMP_MFP_FW_Name="" LastNonMP_Pol_FW_Name="" ScanSpeed="600" InDimension="1024" OutDimension="1024" Zoom="3.39362555989954" PanFirstDim="3.43914732101346E-04" PanSecondDim="2.31161263712029E-03" ScanDirectionX="1" PhaseX="349" Pinhole="2.29957978470357E-04" PinholeAiry="2.43737258129972" FrameAverage="3" LineAverage="1" FrameAccumulation="1" Line_Accumulation="1" LambdaExcitationMode="0" IsRoiScanEnable="0" InTrigger="-1" InTriggerShowInGraph="1" InTriggerRecordInEvent="1" InTriggerDescription="" OutTrigger="-1" OutTriggerShowInGraph="1" OutTriggerRecordInEvent="1" OutTriggerDescription="" SyncOutTriggerCycle="1" SyncOutTriggerStartOffset="1" SyncOutTriggerPulsCount="1" SyncOutTriggerPulseStartLine="0" SyncOutTriggerPulseEndLine="1" SyncInTriggerCycle="1" SyncInTriggerStartOffset="1" SyncInTriggerCount="1" Is3DLimitedRoiScanEnable="0" Limited3DRoiFirstSection="1" Limited3DRoiLastSection="1" DetectorValidBegin="1" DetectorValidEnd="1" AotfValidBegin="1" AotfValidEnd="1" ZIntensityCompensationMode="0">
+              <Autofocus-config Precision="2" FocusRange="0.000045" ZUseMode="1" AFAnalyseType="1" WorkflowTimelapse="1" WorkflowTimelapseIterator="1" WorkflowXY="1" WorkflowXYIterator="1" UseFixSliceNumber="0" AFSubsystem="0" AFCOffset="-2" />
+              <Quantity Value="2.01415967603691E-06" Unit="m" />
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" ZMode="1" ZPosition="-1.13159391126778E-04" />
+                <AdditionalZPosition Valid="1" SuperZMode="1" ZMode="2" ZPosition="0.0227186268" />
+              </AdditionalZPositionList>
+              <ROI>
+                <LMSDataContainerHeader Version="2">
+                  <Element Name="DCROISet">
+                    <Data>
+                      <ROISet ROISetType="1" PossibleChildROITypes="-1" PossibleROITransforms="65535" PossibleROIActions="65535" />
+                    </Data>
+                    <Memory Size="0" MemoryBlockID="MemBlock_17" />
+                    <Children />
+                  </Element>
+                </LMSDataContainerHeader>
+              </ROI>
+              <ShutterList>
+                <Shutter LightSourceQualifier="10" ShutterQualifier="3" LightSourceName="Vis" IsActive="1" />
+              </ShutterList>
+              <FilterWheel>
+                <Wheel Qualifier="40" FilterIndex="1" IsSpectrumTurnMode="0" FilterSpectrumPos="0" IndexChanged="0" SpectrumChanged="0" FilterName="QD 405/488/561/635" FilterType="Excitation Beam Splitter">
+                  <WheelName FilterName="RT 30/70" />
+                  <WheelName FilterName="QD 405/488/561/635" />
+                  <WheelName FilterName="DD 488/561" />
+                </Wheel>
+              </FilterWheel>
+              <Spectro>
+                <MultiBand Channel="1" LeftWorld="495.135135135135" RightWorld="524.324324324324" DyeName="Leica/EGFP" />
+              </Spectro>
+              <Lambda>
+                <LambdaEmission Channel="1" IsValid="0" BandWidthMode="0" LambdaEnd="795" LambdaBegin="385" BandWidth="10" Sections="41" Resolution="2.5" />
+                <LambdaExcitation BandWidthMode="4" LambdaExcitationLightSource="0" LambdaLambdaChannel="1" LambdaLambdaDetectionRangeGeometry="0" LambdaExcitationSections="21" ValidLambdaExcitationBegin="0" ValidLambdaExcitationEnd="0" LambdaExcitationBegin="465" LambdaExcitationEnd="700" LambdaExcitationGapToSPUnit="10" LambdaExcitationSPUnitMaxLambda="710" LambdaExcitationLaserLineIndex="0" LambdaExcitationResolution="10" LambdaExcitationDontMoveSPUnits="0" LambdaBandWidthSize="20" LambdaLambdaDetectBegin="480" LambdaLambdaDetectEnd="720" LambdaLambdaDetectBandWidth="20" LambdaLambdaDetectNoOfSteps="12" LambdaLambdaDetectStepSize="20" ValidLambdaLambdaMinGapExctToDetct="1" ValidLambdaLambdaMaxGapExctToDetct="0" LambdaLambdaMinGapExctToDetct="10" LambdaLambdaMaxGapExctToDetct="50" LambdaLambdaImageCounter="0" />
+              </Lambda>
+              <LambdaLarge />
+              <AotfList>
+                <Aotf AotfQualifier="10" LightSourceQualifier="10" OpenVirtual="0" IsChanged="0" CanDoPulseFreq="0" PulsFreq="0" CanDoTwoLaserPIE="0" TwoLaserPIEActive="0" AotfType="Visible">
+                  <LaserLineSetting LaserLine="405" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="0" Qualifier="10" SequenceIndex="0" IsLineDeactivated="0" IsLineChecked="0" OutCheckedIntensity="0" SuppressionMode="-1" IsVisible="1" LightSourceName="Visible" IntensityShow="Shutter: on, Intensity: 0.0000%" />
+                  <LaserLineSetting LaserLine="488" IntensityDev="20.997375328084" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="1" Qualifier="10" SequenceIndex="0" IsLineDeactivated="0" IsLineChecked="0" OutCheckedIntensity="0" SuppressionMode="-1" IsVisible="1" LightSourceName="Visible" IntensityShow="Shutter: on, Intensity: 20.9974%" />
+                  <LaserLineSetting LaserLine="561" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="2" Qualifier="10" SequenceIndex="0" IsLineDeactivated="0" IsLineChecked="0" OutCheckedIntensity="0" SuppressionMode="-1" IsVisible="1" LightSourceName="Visible" IntensityShow="Shutter: on, Intensity: 0.0000%" />
+                  <LaserLineSetting LaserLine="635" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="3" Qualifier="10" SequenceIndex="0" IsLineDeactivated="0" IsLineChecked="0" OutCheckedIntensity="0" SuppressionMode="-1" IsVisible="1" LightSourceName="Visible" IntensityShow="Shutter: on, Intensity: 0.0000%" />
+                </Aotf>
+              </AotfList>
+              <LUT_List>
+                <LUT Channel="1" LutName="Green" />
+                <LUT Channel="100" LutName="Gray" />
+                <LUT Channel="2000" LutName="Green" />
+                <LUT Channel="2001" LutName="Red" />
+                <LUT Channel="2002" LutName="Blue" />
+                <LUT Channel="2003" LutName="Gray" />
+                <LUT Channel="2004" LutName="Cyan" />
+                <LUT Channel="2005" LutName="Magenta" />
+                <LUT Channel="2006" LutName="Yellow" />
+                <LUT Channel="2007" LutName="Glow" />
+                <LUT Channel="3000" LutName="Gray" />
+              </LUT_List>
+              <DetectorList>
+                <Detector Channel="1" IsActive="1" IsReferenceUnitActivatedForCorrection="0" Gain="765" Offset="-3.90000000000001" IsFlimDetector="0" IsHPDDetector="0" CanDoTimeGate="0" Type="PMT 1" OffsetShow="-4" GainShow="765" ActiveShow="Active" Band="(495nm - 524nm)" Name="" LutName="Green" />
+                <Detector Channel="100" IsActive="0" IsReferenceUnitActivatedForCorrection="0" Gain="732" Offset="4.3" IsFlimDetector="0" IsHPDDetector="0" CanDoTimeGate="0" Type="Transmission" OffsetShow="4" GainShow="732" ActiveShow="Inactive" Band="" Name="" LutName="Gray" />
+              </DetectorList>
+              <LaserArray>
+                <Laser Qualifier="10" LightSourceQualifier="10" LaserName="405 nm" CanDoLinearOutputPower="0" OutputPower="0" Wavelength="405" />
+                <Laser Qualifier="10" LightSourceQualifier="10" LaserName="488 nm" CanDoLinearOutputPower="0" OutputPower="0" Wavelength="488" />
+                <Laser Qualifier="10" LightSourceQualifier="10" LaserName="561 nm" CanDoLinearOutputPower="0" OutputPower="0" Wavelength="561" />
+                <Laser Qualifier="10" LightSourceQualifier="10" LaserName="635 nm" CanDoLinearOutputPower="0" OutputPower="0" Wavelength="635" />
+              </LaserArray>
+              <CompensationInterpolationPoints>
+                <IntensityCompArray />
+              </CompensationInterpolationPoints>
+              <CompensationDetectorBeginCond>
+                <DetectorArray>
+                  <Detector Channel="1" IsActive="1" IsReferenceUnitActivatedForCorrection="0" Gain="765" Offset="-3.90000000000001" IsFlimDetector="0" IsHPDDetector="0" CanDoTimeGate="0" />
+                  <Detector Channel="100" IsActive="0" IsReferenceUnitActivatedForCorrection="0" Gain="732" Offset="4.3" IsFlimDetector="0" IsHPDDetector="0" CanDoTimeGate="0" />
+                </DetectorArray>
+              </CompensationDetectorBeginCond>
+              <CompensationDetectorEndCond>
+                <DetectorArray>
+                  <Detector Channel="1" IsActive="1" IsReferenceUnitActivatedForCorrection="0" Gain="765" Offset="-3.90000000000001" IsFlimDetector="0" IsHPDDetector="0" CanDoTimeGate="0" />
+                  <Detector Channel="100" IsActive="0" IsReferenceUnitActivatedForCorrection="0" Gain="732" Offset="4.3" IsFlimDetector="0" IsHPDDetector="0" CanDoTimeGate="0" />
+                </DetectorArray>
+              </CompensationDetectorEndCond>
+              <CompensationAotfBeginCond>
+                <LaserLineSettingArray>
+                  <LaserLineSetting LaserLine="405" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="0" Qualifier="10" SequenceIndex="0" SuppressionMode="-1" IsChecked="0" IsVisible="1" LightSourceName="Visible" IntensityShow="Intensity: 0.0000%" />
+                  <LaserLineSetting LaserLine="488" IntensityDev="20.997375328084" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="1" Qualifier="10" SequenceIndex="0" SuppressionMode="-1" IsChecked="0" IsVisible="1" LightSourceName="Visible" IntensityShow="Intensity: 20.9974%" />
+                  <LaserLineSetting LaserLine="561" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="2" Qualifier="10" SequenceIndex="0" SuppressionMode="-1" IsChecked="0" IsVisible="1" LightSourceName="Visible" IntensityShow="Intensity: 0.0000%" />
+                  <LaserLineSetting LaserLine="635" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="3" Qualifier="10" SequenceIndex="0" SuppressionMode="-1" IsChecked="0" IsVisible="1" LightSourceName="Visible" IntensityShow="Intensity: 0.0000%" />
+                </LaserLineSettingArray>
+              </CompensationAotfBeginCond>
+              <CompensationAotfEndCond>
+                <LaserLineSettingArray>
+                  <LaserLineSetting LaserLine="405" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="0" Qualifier="10" SequenceIndex="0" SuppressionMode="-1" IsChecked="0" IsVisible="1" LightSourceName="Visible" IntensityShow="Intensity: 0.0000%" />
+                  <LaserLineSetting LaserLine="488" IntensityDev="20.997375328084" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="1" Qualifier="10" SequenceIndex="0" SuppressionMode="-1" IsChecked="0" IsVisible="1" LightSourceName="Visible" IntensityShow="Intensity: 20.9974%" />
+                  <LaserLineSetting LaserLine="561" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="2" Qualifier="10" SequenceIndex="0" SuppressionMode="-1" IsChecked="0" IsVisible="1" LightSourceName="Visible" IntensityShow="Intensity: 0.0000%" />
+                  <LaserLineSetting LaserLine="635" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="3" Qualifier="10" SequenceIndex="0" SuppressionMode="-1" IsChecked="0" IsVisible="1" LightSourceName="Visible" IntensityShow="Intensity: 0.0000%" />
+                </LaserLineSettingArray>
+              </CompensationAotfEndCond>
+              <CompensationDetectorBeginCond>
+                <EOMComp CanDoMP="0" CanDoMP2="0" GainMP="0" OffsetMP="0" GainMP2="0" OffsetMP2="0" />
+              </CompensationDetectorBeginCond>
+              <CompensationDetectorEndCond>
+                <EOMComp CanDoMP="0" CanDoMP2="0" GainMP="0" OffsetMP="0" GainMP2="0" OffsetMP2="0" />
+              </CompensationDetectorEndCond>
+            </ATLConfocalSettingDefinition>
+          </LDM_Block_Sequential_Master>
+          <LDM_Block_Sequential_List>
+            <ATLConfocalSettingDefinition VersionNumber="3" UserSettingName="Seq. 1" IsSTEDActive="0" STEDDelayTime="42" STEDDelayTime2="42" IsUserSettingNameSet="1" BitSize="8" ScanMode="xyz" ZUseMode="1" ZPosition="-1.13159391126778E-04" IsSuperZ="0" Begin="-1.13159391126778E-04" End="-8.6975315338298E-05" Sections="14" ValidBeginStack="1" ValidEndStack="1" IsActivatedStepSizer="0" StepSizeConstant="1" StagePosX="0" StagePosY="0" StagePosZ="0" StageRangeX="0" StageRangeY="0" Magnification="20" ObjectivePos="6" CanDoOpticalZoom="0" OpticalZoom="1" MotCorrPosition="-1" CycleCount="1" CycleTime="0" CompleteTime="0" UseMaxIterationsForT="0" IsTimeMinimizeEnabled="0" LastTCalcMode="3" Lines="512" Pages="1" MaxLines="1" CanDoCSMode="1" ActiveCS_SubModeForTLD="100" ActiveCS_SubModeForRLD="-1" AutofocusChannel="1" IsAutofocusOnStart="0" AutoFocusMode="2" AutofocusRedoEveryNTimePoints="0" IsFCSFilterAutomationActive="0" IsSMDChaserUVAOTFAutomationActive="0" ObjectiveName="Dummy7" ObjectiveNumber="11507904" IsVisShutterActive="1" LastNonMP_MFP_FW_Name="" LastNonMP_Pol_FW_Name="" ScanSpeed="400" InDimension="512" OutDimension="512" Zoom="57.9964601769912" ScanDirectionX="1" PhaseX="349" Pinhole="2.29957978470357E-04" PinholeAiry="2.43737258129972" FrameAverage="3" LineAverage="1" FrameAccumulation="1" Line_Accumulation="1" LambdaExcitationMode="0" IsRoiScanEnable="0" InTrigger="-1" InTriggerShowInGraph="1" InTriggerRecordInEvent="1" InTriggerDescription="" OutTrigger="-1" OutTriggerShowInGraph="1" OutTriggerRecordInEvent="1" OutTriggerDescription="" SyncOutTriggerCycle="1" SyncOutTriggerStartOffset="1" SyncOutTriggerPulsCount="1" SyncOutTriggerPulseStartLine="0" SyncOutTriggerPulseEndLine="1" SyncInTriggerCycle="1" SyncInTriggerStartOffset="1" SyncInTriggerCount="1" DetectorValidBegin="1" DetectorValidEnd="1" AotfValidBegin="1" AotfValidEnd="1" ZIntensityCompensationMode="0">
+              <Autofocus-config Precision="2" FocusRange="0.000045" ZUseMode="1" AFAnalyseType="1" WorkflowTimelapse="1" WorkflowTimelapseIterator="1" WorkflowXY="1" WorkflowXYIterator="1" UseFixSliceNumber="0" AFSubsystem="0" AFCOffset="-2" />
+              <Quantity Value="2.01415967603691E-06" Unit="m" />
+              <AdditionalZPositionList>
+                <AdditionalZPosition Valid="1" SuperZMode="1" ZMode="1" ZPosition="-7.70828540127625E-05" />
+                <AdditionalZPosition Valid="1" SuperZMode="1" ZMode="2" ZPosition="0.0227059766" />
+              </AdditionalZPositionList>
+              <ROI>
+                <LMSDataContainerHeader Version="2">
+                  <Element Name="DCROISet">
+                    <Data>
+                      <ROISet ROISetType="1" PossibleChildROITypes="-1" PossibleROITransforms="65535" PossibleROIActions="65535" />
+                    </Data>
+                    <Memory Size="0" MemoryBlockID="MemBlock_18" />
+                    <Children />
+                  </Element>
+                </LMSDataContainerHeader>
+              </ROI>
+              <ShutterList>
+                <Shutter LightSourceQualifier="10" ShutterQualifier="3" LightSourceName="Vis" IsActive="1" />
+              </ShutterList>
+              <FilterWheel>
+                <Wheel Qualifier="40" FilterIndex="1" IsSpectrumTurnMode="0" FilterSpectrumPos="0" IndexChanged="0" SpectrumChanged="0" FilterName="QD 405/488/561/635" FilterType="Excitation Beam Splitter">
+                  <WheelName FilterName="RT 30/70" />
+                  <WheelName FilterName="QD 405/488/561/635" />
+                  <WheelName FilterName="DD 488/561" />
+                </Wheel>
+              </FilterWheel>
+              <Spectro>
+                <MultiBand Channel="1" LeftWorld="495.135135135135" RightWorld="524.324324324324" DyeName="Leica/EGFP" />
+              </Spectro>
+              <Lambda>
+                <LambdaEmission Channel="1" IsValid="0" BandWidthMode="0" LambdaEnd="795" LambdaBegin="385" BandWidth="10" Sections="41" Resolution="2.5" />
+                <LambdaExcitation BandWidthMode="4" LambdaExcitationLightSource="0" LambdaLambdaChannel="1" LambdaLambdaDetectionRangeGeometry="0" LambdaExcitationSections="21" ValidLambdaExcitationBegin="0" ValidLambdaExcitationEnd="0" LambdaExcitationBegin="465" LambdaExcitationEnd="700" LambdaExcitationGapToSPUnit="10" LambdaExcitationSPUnitMaxLambda="710" LambdaExcitationLaserLineIndex="0" LambdaExcitationResolution="10" LambdaExcitationDontMoveSPUnits="0" LambdaBandWidthSize="20" LambdaLambdaDetectBegin="480" LambdaLambdaDetectEnd="720" LambdaLambdaDetectBandWidth="20" LambdaLambdaDetectNoOfSteps="12" LambdaLambdaDetectStepSize="20" ValidLambdaLambdaMinGapExctToDetct="1" ValidLambdaLambdaMaxGapExctToDetct="0" LambdaLambdaMinGapExctToDetct="10" LambdaLambdaMaxGapExctToDetct="50" LambdaLambdaImageCounter="0" />
+              </Lambda>
+              <LambdaLarge />
+              <AotfList>
+                <Aotf AotfQualifier="10" LightSourceQualifier="10" OpenVirtual="0" IsChanged="0" CanDoPulseFreq="0" PulsFreq="0" CanDoTwoLaserPIE="0" TwoLaserPIEActive="0" AotfType="Visible">
+                  <LaserLineSetting LaserLine="405" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="0" Qualifier="10" SequenceIndex="0" IsLineDeactivated="0" IsLineChecked="0" OutCheckedIntensity="0" SuppressionMode="-1" IsVisible="1" LightSourceName="Visible" IntensityShow="Shutter: on, Intensity: 0.0000%" />
+                  <LaserLineSetting LaserLine="488" IntensityDev="20.997375328084" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="1" Qualifier="10" SequenceIndex="0" IsLineDeactivated="0" IsLineChecked="0" OutCheckedIntensity="0" SuppressionMode="-1" IsVisible="1" LightSourceName="Visible" IntensityShow="Shutter: on, Intensity: 20.9974%" />
+                  <LaserLineSetting LaserLine="561" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="2" Qualifier="10" SequenceIndex="0" IsLineDeactivated="0" IsLineChecked="0" OutCheckedIntensity="0" SuppressionMode="-1" IsVisible="1" LightSourceName="Visible" IntensityShow="Shutter: on, Intensity: 0.0000%" />
+                  <LaserLineSetting LaserLine="635" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="3" Qualifier="10" SequenceIndex="0" IsLineDeactivated="0" IsLineChecked="0" OutCheckedIntensity="0" SuppressionMode="-1" IsVisible="1" LightSourceName="Visible" IntensityShow="Shutter: on, Intensity: 0.0000%" />
+                </Aotf>
+              </AotfList>
+              <LUT_List>
+                <LUT Channel="1" LutName="Green" />
+                <LUT Channel="100" LutName="Gray" />
+                <LUT Channel="2000" LutName="Green" />
+                <LUT Channel="2001" LutName="Red" />
+                <LUT Channel="2002" LutName="Blue" />
+                <LUT Channel="2003" LutName="Gray" />
+                <LUT Channel="2004" LutName="Cyan" />
+                <LUT Channel="2005" LutName="Magenta" />
+                <LUT Channel="2006" LutName="Yellow" />
+                <LUT Channel="2007" LutName="Glow" />
+                <LUT Channel="3000" LutName="Gray" />
+              </LUT_List>
+              <DetectorList>
+                <Detector Channel="1" IsActive="1" IsReferenceUnitActivatedForCorrection="0" Gain="765" Offset="-3.90000000000001" IsFlimDetector="0" IsHPDDetector="0" CanDoTimeGate="0" Type="PMT 1" OffsetShow="-4" GainShow="765" ActiveShow="Active" Band="(495nm - 524nm)" Name="" LutName="Green" />
+                <Detector Channel="100" IsActive="0" IsReferenceUnitActivatedForCorrection="0" Gain="732" Offset="4.3" IsFlimDetector="0" IsHPDDetector="0" CanDoTimeGate="0" Type="Transmission" OffsetShow="4" GainShow="732" ActiveShow="Inactive" Band="" Name="" LutName="Gray" />
+              </DetectorList>
+              <LaserArray>
+                <Laser Qualifier="10" LightSourceQualifier="10" LaserName="405 nm" CanDoLinearOutputPower="0" OutputPower="0" Wavelength="405" />
+                <Laser Qualifier="10" LightSourceQualifier="10" LaserName="488 nm" CanDoLinearOutputPower="0" OutputPower="0" Wavelength="488" />
+                <Laser Qualifier="10" LightSourceQualifier="10" LaserName="561 nm" CanDoLinearOutputPower="0" OutputPower="0" Wavelength="561" />
+                <Laser Qualifier="10" LightSourceQualifier="10" LaserName="635 nm" CanDoLinearOutputPower="0" OutputPower="0" Wavelength="635" />
+              </LaserArray>
+              <CompensationInterpolationPoints>
+                <IntensityCompArray />
+              </CompensationInterpolationPoints>
+              <CompensationDetectorBeginCond>
+                <DetectorArray>
+                  <Detector Channel="1" IsActive="1" IsReferenceUnitActivatedForCorrection="0" Gain="765" Offset="-3.90000000000001" IsFlimDetector="0" IsHPDDetector="0" CanDoTimeGate="0" />
+                  <Detector Channel="100" IsActive="0" IsReferenceUnitActivatedForCorrection="0" Gain="732" Offset="4.3" IsFlimDetector="0" IsHPDDetector="0" CanDoTimeGate="0" />
+                </DetectorArray>
+              </CompensationDetectorBeginCond>
+              <CompensationDetectorEndCond>
+                <DetectorArray>
+                  <Detector Channel="1" IsActive="1" IsReferenceUnitActivatedForCorrection="0" Gain="765" Offset="-3.90000000000001" IsFlimDetector="0" IsHPDDetector="0" CanDoTimeGate="0" />
+                  <Detector Channel="100" IsActive="0" IsReferenceUnitActivatedForCorrection="0" Gain="732" Offset="4.3" IsFlimDetector="0" IsHPDDetector="0" CanDoTimeGate="0" />
+                </DetectorArray>
+              </CompensationDetectorEndCond>
+              <CompensationAotfBeginCond>
+                <LaserLineSettingArray>
+                  <LaserLineSetting LaserLine="405" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="0" Qualifier="10" SequenceIndex="0" SuppressionMode="-1" IsChecked="0" IsVisible="1" LightSourceName="Visible" IntensityShow="Intensity: 0.0000%" />
+                  <LaserLineSetting LaserLine="488" IntensityDev="20.997375328084" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="1" Qualifier="10" SequenceIndex="0" SuppressionMode="-1" IsChecked="0" IsVisible="1" LightSourceName="Visible" IntensityShow="Intensity: 20.9974%" />
+                  <LaserLineSetting LaserLine="561" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="2" Qualifier="10" SequenceIndex="0" SuppressionMode="-1" IsChecked="0" IsVisible="1" LightSourceName="Visible" IntensityShow="Intensity: 0.0000%" />
+                  <LaserLineSetting LaserLine="635" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="3" Qualifier="10" SequenceIndex="0" SuppressionMode="-1" IsChecked="0" IsVisible="1" LightSourceName="Visible" IntensityShow="Intensity: 0.0000%" />
+                </LaserLineSettingArray>
+              </CompensationAotfBeginCond>
+              <CompensationAotfEndCond>
+                <LaserLineSettingArray>
+                  <LaserLineSetting LaserLine="405" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="0" Qualifier="10" SequenceIndex="0" SuppressionMode="-1" IsChecked="0" IsVisible="1" LightSourceName="Visible" IntensityShow="Intensity: 0.0000%" />
+                  <LaserLineSetting LaserLine="488" IntensityDev="20.997375328084" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="1" Qualifier="10" SequenceIndex="0" SuppressionMode="-1" IsChecked="0" IsVisible="1" LightSourceName="Visible" IntensityShow="Intensity: 20.9974%" />
+                  <LaserLineSetting LaserLine="561" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="2" Qualifier="10" SequenceIndex="0" SuppressionMode="-1" IsChecked="0" IsVisible="1" LightSourceName="Visible" IntensityShow="Intensity: 0.0000%" />
+                  <LaserLineSetting LaserLine="635" IntensityDev="0" IntensityLowDev="0" AOBSIntensityDev="-1" AOBSIntensityLowDev="-1" EnableDoubleMode="0" LineIndex="3" Qualifier="10" SequenceIndex="0" SuppressionMode="-1" IsChecked="0" IsVisible="1" LightSourceName="Visible" IntensityShow="Intensity: 0.0000%" />
+                </LaserLineSettingArray>
+              </CompensationAotfEndCond>
+              <CompensationDetectorBeginCond>
+                <EOMComp CanDoMP="0" CanDoMP2="0" GainMP="0" OffsetMP="0" GainMP2="0" OffsetMP2="0" />
+              </CompensationDetectorBeginCond>
+              <CompensationDetectorEndCond>
+                <EOMComp CanDoMP="0" CanDoMP2="0" GainMP="0" OffsetMP="0" GainMP2="0" OffsetMP2="0" />
+              </CompensationDetectorEndCond>
+            </ATLConfocalSettingDefinition>
+          </LDM_Block_Sequential_List>
+          <LDM_Block_Sequential_Execution_Mask>
+            <InstrumentSettingMask Shutter="1" Frame_Average="1" AOTF="1" Laser_Gain_Offset="1" PMTs_on_off="1" PMTs_Gain_Offset="1" FilterWheel="1" Microscope="1" Pinhole="1" Spectrophotometer="1" Frame_Accumulation="1" Reference_Correction="1" Laser="1" STED_DelayTime="1" />
+          </LDM_Block_Sequential_Execution_Mask>
+        </LDM_Block_Sequential>
+        <FilterSetting>
+          <FilterSettingRecord ObjectName="Visible AOTF" ClassName="CAotf" Attribute="Intensity" Description="AOTF (405)" Data="405" Variant="0.00" VariantType="5" Unit="%" />
+          <FilterSettingRecord ObjectName="Visible AOTF" ClassName="CAotf" Attribute="Intensity" Description="AOTF (488)" Data="488" Variant="21.00" VariantType="5" Unit="%" />
+          <FilterSettingRecord ObjectName="Visible AOTF" ClassName="CAotf" Attribute="Intensity" Description="AOTF (561)" Data="561" Variant="0.00" VariantType="5" Unit="%" />
+          <FilterSettingRecord ObjectName="Visible AOTF" ClassName="CAotf" Attribute="Intensity" Description="AOTF (635)" Data="635" Variant="0.00" VariantType="5" Unit="%" />
+          <FilterSettingRecord ObjectName="Visible AOTFLow" ClassName="CAotf" Attribute="Intensity" Description="AOTF (405)" Data="405" Variant="0.00" VariantType="5" Unit="%" />
+          <FilterSettingRecord ObjectName="Visible AOTFLow" ClassName="CAotf" Attribute="Intensity" Description="AOTF (488)" Data="488" Variant="0.00" VariantType="5" Unit="%" />
+          <FilterSettingRecord ObjectName="Visible AOTFLow" ClassName="CAotf" Attribute="Intensity" Description="AOTF (561)" Data="561" Variant="0.00" VariantType="5" Unit="%" />
+          <FilterSettingRecord ObjectName="Visible AOTFLow" ClassName="CAotf" Attribute="Intensity" Description="AOTF (635)" Data="635" Variant="0.00" VariantType="5" Unit="%" />
+          <FilterSettingRecord ObjectName="PMT 1" ClassName="CDetectionUnit" Attribute="State" Description="PMT 1" Data="1" Variant="Active" VariantType="8" />
+          <FilterSettingRecord ObjectName="PMT 1" ClassName="CDetectionUnit" Attribute="VideoOffset" Description="PMT 1 (Offs.)" Data="1" Variant="-3.9" VariantType="5" Unit="%" />
+          <FilterSettingRecord ObjectName="PMT 1" ClassName="CDetectionUnit" Attribute="HighVoltage" Description="PMT 1 (HV)" Data="1" Variant="765.0" VariantType="5" />
+          <FilterSettingRecord ObjectName="PMT 1" ClassName="CDetectionUnit" Attribute="HighVoltageUnit" Description="PMT 1 (HV_Unit)" Data="1" Variant="V" VariantType="8" />
+          <FilterSettingRecord ObjectName="PMT Trans" ClassName="CDetectionUnit" Attribute="State" Description="PMT Trans" Data="100" Variant="Inactive" VariantType="8" />
+          <FilterSettingRecord ObjectName="Excitation Beam Splitter FW" ClassName="CFilterWheel" Attribute="Filter" Description="Excitation Beam Splitter FW" Data="0" Variant="QD 405/488/561/635" VariantType="8" />
+          <FilterSettingRecord ObjectName="Hardware Tree (SPE2- 5210000352)" ClassName="CFolderHardwareTree" Attribute="Machine_Type" Description="Hardware Type No." Data="0" Variant="8" VariantType="5" />
+          <FilterSettingRecord ObjectName="Hardware Tree (SPE2- 5210000352)" ClassName="CFolderHardwareTree" Attribute="System_Number" Description="System Number" Data="0" Variant="SPE2- 5210000352" VariantType="8" />
+          <FilterSettingRecord ObjectName="Laser (405 nm, visible)" ClassName="CLaser" Attribute="Wavelength" Description="Laser wavelength" Data="0" Variant="405" VariantType="3" />
+          <FilterSettingRecord ObjectName="Laser (405 nm, visible)" ClassName="CLaser" Attribute="Power State" Description="Power State" Data="0" Variant="On" VariantType="8" />
+          <FilterSettingRecord ObjectName="Laser (488 nm, visible)" ClassName="CLaser" Attribute="Wavelength" Description="Laser wavelength" Data="0" Variant="488" VariantType="3" />
+          <FilterSettingRecord ObjectName="Laser (488 nm, visible)" ClassName="CLaser" Attribute="Power State" Description="Power State" Data="0" Variant="On" VariantType="8" />
+          <FilterSettingRecord ObjectName="Laser (561 nm, visible)" ClassName="CLaser" Attribute="Wavelength" Description="Laser wavelength" Data="0" Variant="561" VariantType="3" />
+          <FilterSettingRecord ObjectName="Laser (561 nm, visible)" ClassName="CLaser" Attribute="Power State" Description="Power State" Data="0" Variant="Off" VariantType="8" />
+          <FilterSettingRecord ObjectName="Laser (635 nm, visible)" ClassName="CLaser" Attribute="Wavelength" Description="Laser wavelength" Data="0" Variant="635" VariantType="3" />
+          <FilterSettingRecord ObjectName="Laser (635 nm, visible)" ClassName="CLaser" Attribute="Power State" Description="Power State" Data="0" Variant="Off" VariantType="8" />
+          <FilterSettingRecord ObjectName="DM5500" ClassName="CMicroscopeStand" Attribute="TLD_Settings" Description="TLD_Settings" Data="0" Variant="100" VariantType="3" />
+          <FilterSettingRecord ObjectName="DM5500" ClassName="CMicroscopeStand" Attribute="RLD_Settings" Description="RLD_Settings" Data="0" Variant="-1" VariantType="3" />
+          <FilterSettingRecord ObjectName="X Scan Actuator" ClassName="CScanActuator" Attribute="ScanPlane" Description="X Scan Actuator" Data="0" Variant="Active" VariantType="8" />
+          <FilterSettingRecord ObjectName="X Scan Actuator" ClassName="CScanActuator" Attribute="IsWholeRangeOfSuperZEnabled" Description="X Scan Actuator (POS)" Data="0" Variant="0" VariantType="3" />
+          <FilterSettingRecord ObjectName="X Scan Actuator" ClassName="CScanActuator" Attribute="Gain" Description="X Scan Actuator (Gain)" Data="0" Variant="3.39362555989954" VariantType="5" />
+          <FilterSettingRecord ObjectName="X Scan Actuator" ClassName="CScanActuator" Attribute="Offset" Description="X Scan Actuator (Offs.)" Data="0" Variant="3.43914732101346E-04" VariantType="5" />
+          <FilterSettingRecord ObjectName="Y Scan Actuator" ClassName="CScanActuator" Attribute="ScanPlane" Description="Y Scan Actuator" Data="0" Variant="Active" VariantType="8" />
+          <FilterSettingRecord ObjectName="Y Scan Actuator" ClassName="CScanActuator" Attribute="IsWholeRangeOfSuperZEnabled" Description="Y Scan Actuator (POS)" Data="0" Variant="0" VariantType="3" />
+          <FilterSettingRecord ObjectName="Y Scan Actuator" ClassName="CScanActuator" Attribute="Gain" Description="Y Scan Actuator (Gain)" Data="0" Variant="3.39362555989954" VariantType="5" />
+          <FilterSettingRecord ObjectName="Y Scan Actuator" ClassName="CScanActuator" Attribute="Offset" Description="Y Scan Actuator (Offs.)" Data="0" Variant="2.31161263712029E-03" VariantType="5" />
+          <FilterSettingRecord ObjectName="Z Scan Actuator" ClassName="CScanActuator" Attribute="ScanPlane" Description="Z Scan Actuator" Data="0" Variant="Inactive" VariantType="8" />
+          <FilterSettingRecord ObjectName="Z Scan Actuator" ClassName="CScanActuator" Attribute="IsWholeRangeOfSuperZEnabled" Description="Z Scan Actuator (POS)" Data="0" Variant="0" VariantType="3" />
+          <FilterSettingRecord ObjectName="Z Scan Actuator" ClassName="CScanActuator" Attribute="Position" Description="Z Scan Actuator (POS)" Data="0" Variant="0.000" VariantType="5" Unit="" />
+          <FilterSettingRecord ObjectName="Scan Head" ClassName="CScanCtrlUnit" Attribute="Speed" Description="Scan Speed" Data="1" Variant="600" VariantType="5" Unit="Hz" />
+          <FilterSettingRecord ObjectName="Scan Head" ClassName="CScanCtrlUnit" Attribute="Phase" Description="Phase" Data="0" Variant="-31.8315377081293" VariantType="5" />
+          <FilterSettingRecord ObjectName="Scan Head" ClassName="CScanCtrlUnit" Attribute="Y Phase" Description="Y Phase" Data="0" Variant="0" VariantType="5" />
+          <FilterSettingRecord ObjectName="Scan Head" ClassName="CScanCtrlUnit" Attribute="SMD-Phase" Description="SMD-Phase" Data="0" Variant="0" VariantType="5" />
+          <FilterSettingRecord ObjectName="SP Mirror Channel 1" ClassName="CSpectrophotometerUnit" Attribute="Wavelength" Description="SP Mirror Channel 1 (left)" Data="0" Variant="495.1" VariantType="5" />
+          <FilterSettingRecord ObjectName="SP Mirror Channel 1" ClassName="CSpectrophotometerUnit" Attribute="Wavelength" Description="SP Mirror Channel 1 (right)" Data="1" Variant="524.3" VariantType="5" />
+          <FilterSettingRecord ObjectName="SP Mirror Channel 1" ClassName="CSpectrophotometerUnit" Attribute="Stain" Description="SP Mirror Channel 1 (stain)" Data="0" Variant="Leica/EGFP" VariantType="8" />
+          <FilterSettingRecord ObjectName="DM5500 Turret" ClassName="CTurret" Attribute="Objective" Description="Objective" Data="0" Variant="ACS APO  20.0x0.60 IMM " VariantType="8" />
+          <FilterSettingRecord ObjectName="DM5500 Turret" ClassName="CTurret" Attribute="OrderNumberWithoutPoints" Description="Order number (Obj.)" Data="0" Variant="11507904" VariantType="3" />
+          <FilterSettingRecord ObjectName="DM5500 Turret" ClassName="CTurret" Attribute="Numerical Aperture" Description="Numerical aperture" Data="0" Variant="600" VariantType="5" Unit="m" />
+          <FilterSettingRecord ObjectName="DM5500 Turret" ClassName="CTurret" Attribute="RefractionIndex" Description="Refractive index" Data="0" Variant="1.52" VariantType="5" Unit="" />
+          <FilterSettingRecord ObjectName="PMT 1" ClassName="CSpectrophotometerUnit" Attribute="Bandwidth" Description="Emission bandwidth PMT 1: begin - end" Data="0" Variant="495nm - 524nm" VariantType="8" />
+        </FilterSetting>
+      </HardwareSetting>
+    </Attachment>
+    <TimeStampList FirstTimeStampDate="05.09.2014" FirstTimeStampTime="16:59:10" FirstTimeStampMiliSeconds="638">
+      <TimeStamp HighInteger="30394649" LowInteger="4077980896" RelativeTime="0,000" Date="05.09.2014" Time="16:59:10" MiliSeconds="638" />
+      <TimeStamp HighInteger="30394649" LowInteger="4132300896" RelativeTime="5,432" Date="05.09.2014" Time="16:59:16" MiliSeconds="070" />
+      <TimeStamp HighInteger="30394649" LowInteger="4186640896" RelativeTime="10,866" Date="05.09.2014" Time="16:59:21" MiliSeconds="504" />
+      <TimeStamp HighInteger="30394649" LowInteger="4240970896" RelativeTime="16,299" Date="05.09.2014" Time="16:59:26" MiliSeconds="937" />
+      <TimeStamp HighInteger="30394650" LowInteger="323600" RelativeTime="21,731" Date="05.09.2014" Time="16:59:32" MiliSeconds="369" />
+      <TimeStamp HighInteger="30394650" LowInteger="54653600" RelativeTime="27,164" Date="05.09.2014" Time="16:59:37" MiliSeconds="802" />
+      <TimeStamp HighInteger="30394650" LowInteger="109013600" RelativeTime="32,600" Date="05.09.2014" Time="16:59:43" MiliSeconds="238" />
+      <TimeStamp HighInteger="30394650" LowInteger="163363600" RelativeTime="38,035" Date="05.09.2014" Time="16:59:48" MiliSeconds="673" />
+      <TimeStamp HighInteger="30394650" LowInteger="217693600" RelativeTime="43,468" Date="05.09.2014" Time="16:59:54" MiliSeconds="106" />
+      <TimeStamp HighInteger="30394650" LowInteger="272033600" RelativeTime="48,902" Date="05.09.2014" Time="16:59:59" MiliSeconds="540" />
+      <TimeStamp HighInteger="30394650" LowInteger="326373600" RelativeTime="54,336" Date="05.09.2014" Time="17:00:04" MiliSeconds="974" />
+      <TimeStamp HighInteger="30394650" LowInteger="380703600" RelativeTime="59,769" Date="05.09.2014" Time="17:00:10" MiliSeconds="407" />
+      <TimeStamp HighInteger="30394650" LowInteger="435053600" RelativeTime="65,204" Date="05.09.2014" Time="17:00:15" MiliSeconds="842" />
+      <TimeStamp HighInteger="30394650" LowInteger="489403600" RelativeTime="70,639" Date="05.09.2014" Time="17:00:21" MiliSeconds="277" />
+    </TimeStampList>
+    <Attachment Name="ChannelAttachment" Application="LAS AF" />
+    <Attachment Name="ImageXMLDocument" Application="LAS AF">
+      <RootNode />
+    </Attachment>
+    <Attachment Name="ViewerScaling" Application="LAS AF" Version="1.0">
+      <ChannelScalingInfo BackgroundLutName="" WhiteValue="1" BlackValue="0" GammaValue="1" Automatic="0" />
+    </Attachment>
+    <Attachment Name="Annotations" Application="LAS AF" Version="1.0">
+      <Annotation color="-1" fontName="Arial" fontSize="10" fontStyle="Regular" type="8192" name="ROI.01" visibleLabel="True" transRotation="0.9240449" transTransX="6.07934E-06" transTransY="0.0001837346" transScalingX="1.243719" transScalingY="1.243719" showLineEnds="True">
+        <Vertex x="-4.019657E-05" y="6.483315E-07" />
+        <Vertex x="4.019657E-05" y="-6.483315E-07" />
+      </Annotation>
+    </Attachment>
+  </Image>
+</Data>
