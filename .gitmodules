@@ -1,0 +1,6 @@
+[submodule "omero-test-infra"]
+	path = omero-test-infra
+	url = https://github.com/ome/omero-test-infra.git
+[submodule ".omero"]
+	path = .omero
+	url = https://github.com/ome/omero-test-infra.git
