@@ -38,7 +38,7 @@ jobs:
       - name: Build arc_omero
         run: |
           pip install --upgrade pip
-          pip install "omero-cli-transfer @ git+https://github.com/MicheleBortol/omero-cli-transfer.git"
+          pip install "omero-cli-transfer @ git+https://github.com/MicheleBortol/omero-cli-transfer.git@omero_arc_importer"
           pip install ".[dev]"
       - name: Import datasets
         run: |
