@@ -37,9 +37,9 @@ jobs:
             cache: 'pip' # caching pip dependencies
       - name: Build arc_omero
         run: |
+          wget https://downloads.openmicroscopy.org/bio-formats/7.2.0/artifacts/bftools.zip
           mkdir bftools
           unzip -d ./bftools bftools.zip
-          wget https://downloads.openmicroscopy.org/bio-formats/7.2.0/artifacts/bftools.zip
           pip install --upgrade pip
           pip install "omero-cli-transfer @ git+https://github.com/MicheleBortol/omero-cli-transfer.git@omero_arc_importer"
           pip install ".[dev]"
