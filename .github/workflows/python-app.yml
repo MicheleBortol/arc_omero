@@ -13,6 +13,8 @@ jobs:
         with:
           repository: ome/omero-test-infra
           path: .omero
+      - name: Launch OMERO test database
+        run:  .omero/compose up -d
       - name: checkout arc_omero
         uses: actions/checkout@v3
       - name: Set up Python
@@ -27,6 +29,5 @@ jobs:
       - name: Run tests 
         run:  |
           pip install pytest
-          .omero/compose up
       - name: Stop OMERO test database
-        run: ".omero/compose down"
+        run: .omero/compose down
