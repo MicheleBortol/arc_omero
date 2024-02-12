@@ -1,0 +1,28 @@
+name: OMERO
+on:
+  commit:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    name: Run integration tests against OMERO
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout
+      - name: Checkout omero-test-infra
+        uses: actions/checkout@master
+        with:
+          repository: ome/omero-test-infra
+          path: .omero
+      - name: Set up Python
+        uses: actions/setup-python
+         with:
+            python-version: "3.8"
+      - name: Build arc_omero
+        run: |
+          python -m venv test_env
+          source test_env/bin/activate
+          pip install "omero-cli-transfer @ git+https://github.com/ome/omero-cli-transfer@main"
+          pip install .[dev]
+      - run:  echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
