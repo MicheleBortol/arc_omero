@@ -37,11 +37,15 @@ jobs:
             cache: 'pip' # caching pip dependencies
       - name: Build arc_omero
         run: |
+          mkdir bftools
+          unzip -d ./bftools bftools.zip
+          wget https://downloads.openmicroscopy.org/bio-formats/7.2.0/artifacts/bftools.zip
           pip install --upgrade pip
           pip install "omero-cli-transfer @ git+https://github.com/MicheleBortol/omero-cli-transfer.git@omero_arc_importer"
           pip install ".[dev]"
       - name: Import datasets
         run: |
+          export PATH=$(pwd)/bftools:$PATH
           omero login --user root --password omero localhost
           omero transfer prepare --plugin arc_omero test/data/arcs/Resolve/assays/ResolveMolecularCartography/dataset
           omero transfer unpack --folder test/data/arcs/Resolve/assays/ResolveMolecularCartography/dataset 
