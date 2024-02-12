@@ -51,6 +51,7 @@ jobs:
       - name: Run tests 
         run:  |
           pip install pytest
+          pytest -v
       - name: Checkout omero-test-infra
         uses: actions/checkout@main
         with:
