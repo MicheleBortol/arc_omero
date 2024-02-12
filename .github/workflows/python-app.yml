@@ -29,5 +29,10 @@ jobs:
       - name: Run tests 
         run:  |
           pip install pytest
+      - name: Checkout omero-test-infra
+        uses: actions/checkout@main
+        with:
+          repository: ome/omero-test-infra
+          path: .omero
       - name: Stop OMERO test database
         run: .omero/compose down
