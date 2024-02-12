@@ -1,0 +1,61 @@
+name: OMERO
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    name: Run integration tests against OMERO
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout omero-test-infra
+        uses: actions/checkout@main
+        with:
+          repository: ome/omero-test-infra
+          path: .omero
+      - name: Launch OMERO test database
+        run:  .omero/compose up -d
+        env:
+          ROOTPASS: omero
+          POSTGRES_IMAGE: postgres
+          POSTGRES_VERSION: 10
+          POSTGRES_PASSWORD: postgres
+          OMERO_SERVER_IMAGE: openmicroscopy/omero-server
+          OMERO_SERVER_VERSION: 5
+          OMERO_SERVER_TCP: "4063:"
+          OMERO_SERVER_SSL: "4064:"
+          OMERO_WEB_IMAGE: openmicroscopy/omero-web-standalone
+          OMERO_WEB_VERSION: 5
+          OMERO_WEB_PORT: "4080:"
+          BUILD_IMAGE: adoptopenjdk:11-jdk-hotspot-bionic
+      - name: checkout arc_omero
+        uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+            python-version: "3.9"
+            cache: 'pip' # caching pip dependencies
+      - name: Build arc_omero
+        run: |
+          wget https://downloads.openmicroscopy.org/bio-formats/7.2.0/artifacts/bftools.zip
+          unzip bftools.zip
+          pip install --upgrade pip
+          pip install "omero-cli-transfer @ git+https://github.com/MicheleBortol/omero-cli-transfer.git@omero_arc_importer"
+          pip install ".[dev]"
+      - name: Import datasets
+        run: |
+          export PATH=$(pwd)/bftools:$PATH
+          omero login --user root --password omero localhost
+          omero transfer prepare --plugin arc_omero test/data/arcs/Resolve/assays/ResolveMolecularCartography/dataset
+          omero transfer unpack --folder test/data/arcs/Resolve/assays/ResolveMolecularCartography/dataset 
+      - name: Run tests 
+        run:  |
+          pip install pytest
+          pytest -v
+      - name: Checkout omero-test-infra
+        uses: actions/checkout@main
+        with:
+          repository: ome/omero-test-infra
+          path: .omero
+      - name: Stop OMERO test database
+        run: .omero/compose down
