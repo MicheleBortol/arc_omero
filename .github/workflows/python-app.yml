@@ -21,11 +21,17 @@ jobs:
         uses: actions/setup-python@v4
         with:
             python-version: "3.9"
+            cache: 'pip' # caching pip dependencies
       - name: Build arc_omero
         run: |
           pip install --upgrade pip
           pip install "omero-cli-transfer @ git+https://github.com/MicheleBortol/omero-cli-transfer.git"
           pip install ".[dev]"
+      - name: Import datasets
+        run: |
+          omero login --user root --password omero localhost
+          omero transfer prepare --plugin arc_omero test/data/arcs/Resolve/assays/ResolveMolecularCartography/dataset
+          omero transfer unpack --folder test/data/arcs/Resolve/assays/ResolveMolecularCartography/dataset 
       - name: Run tests 
         run:  |
           pip install pytest
