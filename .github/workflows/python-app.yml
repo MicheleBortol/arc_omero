@@ -17,7 +17,7 @@ jobs:
           path: .omero
       - name: Set up Python
         uses: actions/setup-python
-         with:
+        with:
             python-version: "3.8"
       - name: Build arc_omero
         run: |
