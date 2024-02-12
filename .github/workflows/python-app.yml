@@ -21,9 +21,12 @@ jobs:
             python-version: "3.9"
       - name: Build arc_omero
         run: |
-          python -m venv test_env
-          source test_env/bin/activate
           pip install --upgrade pip
           pip install "omero-cli-transfer @ git+https://github.com/MicheleBortol/omero-cli-transfer.git"
           pip install ".[dev]"
-      - run:  echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
+      - name: Run tests 
+        run:  |
+          pip install pytest
+          .omero/compose up
+      - name: Stop OMERO test database
+        run: ".omero/compose down"
