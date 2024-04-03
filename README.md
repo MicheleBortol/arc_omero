@@ -13,9 +13,9 @@ omero transfer unpack --folder ARC_DATASET_FOLDER # Not dependent on the plugin
 
 To setup the environment:
 ```
-# 1) Setup a python3 virtual environment
-python3 -m venv arc_omero_dev
-source arc_omero_dev/bin/activate
+# 1) Setup a python3 environment with conda
+conda create -n myenv -c conda-forge python=3.8 zeroc-ice=3.6.5
+conda activate myvenv
 
 # 2) Clone the forked omero-cli-transfer repo
 git clone https://github.com/MicheleBortol/omero-cli-transfer.git
