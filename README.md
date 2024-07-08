@@ -24,7 +24,7 @@ git clone https://github.com/MicheleBortol/omero-cli-transfer.git
 wget https://downloads.openmicroscopy.org/bio-formats/7.1.0/artifacts/bftools.zip
 unzip bftools.zip
 mkdir bin
-mv bftools bin
+mv bftools bin/
 export PATH=$(pwd)/arc_omero_dev/bin/bftools:$PATH 
 
 # 4) Install omero-cli-transfer with the plugins enabled for the prepare function
